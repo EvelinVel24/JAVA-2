@@ -22,9 +22,9 @@ public class ListaCompras {
         double totalEnDolares = totalConIva / valorDolar;
 
         // Mostrar los resultados
-        System.out.println("Total sin IVA: $" + total);
-        System.out.println("IVA (19%): $" + iva);
-        System.out.println("Total con IVA: $" + totalConIva);
-        System.out.println("Total en dólares: $" + totalEnDolares);
+        System.out.println("El total de su compra es: $" + total);
+        System.out.println("El IVA es: $" + iva);
+        System.out.println("El total más IVA es: $" + totalConIva);
+        System.out.println("El total de su compra en dólares es: $" + totalEnDolares);
     }
 }
